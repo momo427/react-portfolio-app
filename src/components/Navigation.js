@@ -3,26 +3,48 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import { NavDropdown } from 'react-bootstrap';
 
-export default function Portfolio(){
-    return (
+function Navigation ({ currentPage, handlePageChange }) {
+  return (
         <>
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Navbar.Brand href="#home">Tyra Ferguson</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="#features">About Me</Nav.Link>
-      <Nav.Link href="#pricing">Projects</Nav.Link>
-      <Nav.Link href="#pricing">Resume</Nav.Link>
+      <Nav.Link 
+          href="#Home"
+          onClick={() => handlePageChange('Home')}
+          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+
+    
+        > Home</Nav.Link>
+           <Nav.Link 
+          href="#Project"
+          onClick={() => handlePageChange('Project')}
+          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}
+
+    
+        > Projects</Nav.Link>
+      <Nav.Link 
+          href="#Resume"
+          onClick={() => handlePageChange('Resume')}
+          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+
+    
+        > Resume</Nav.Link>
       <NavDropdown title="Contact Me" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.2">Email</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">LinkedIn</NavDropdown.Item>
+        <NavDropdown.Item href="Gmail.com">Email</NavDropdown.Item>
+        <NavDropdown.Item href="https://www.linkedin.com/in/tyra-ferguson-0b1929114">LinkedIn</NavDropdown.Item>
+        <NavDropdown.Item href="https://docs.google.com/document/d/1JzMfEHJ8_SqhnDhZviNASSQtMs7dQLdCpOVayf0XG_4/edit?usp=sharing">Download Resume</NavDropdown.Item>
         <NavDropdown.Divider />
       </NavDropdown>
     </Nav>
     <Nav>
-      <Nav.Link href="#deets">Twitter</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
+      <Nav.Link href="https://twitter.com/intent/tweet?text=Tweet:@mo_winkle">Twitter</Nav.Link>
+      <Nav.Link eventKey={2} href="https://twitter.com/intent/tweet?text=Tweet:@mo_winkle">
         
       </Nav.Link>
     </Nav>
@@ -33,3 +55,4 @@ export default function Portfolio(){
 
     )
 }
+export default Navigation;

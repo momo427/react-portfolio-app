@@ -1,14 +1,14 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 
-export default function Portfolio(){
+export default function Project(){
     return (
         <>
 <Carousel fade>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="holder.js/800x400?text=First slide&bg=373940"
+      src="https://source.unsplash.com/random"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -19,7 +19,7 @@ export default function Portfolio(){
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="holder.js/800x400?text=Second slide&bg=282c34"
+      src="https://source.unsplash.com/random"
       alt="Second slide"
     />
 
@@ -31,7 +31,7 @@ export default function Portfolio(){
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="holder.js/800x400?text=Third slide&bg=20232a"
+      src="https://source.unsplash.com/random"
       alt="Third slide"
     />
 
