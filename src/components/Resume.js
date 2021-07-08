@@ -13,7 +13,7 @@ export default function Portfolio() {
         https://momo427.github.io/Portfolio2/
       </a>
       <h3>SKILLS</h3>
-      <p>
+      <p id="skills">
         I am a recent graduate of GW Full Stack Web Development Bootcamp, from
         which I gained and refined skills using various technologies. Some of
         the technologies that I have excelled in include, html, css, javascript,
@@ -55,8 +55,9 @@ export default function Portfolio() {
         technologies in order to become an employer ready candidate.
       </p>
       <h3>Digital Presence</h3>
-      Github https://github.com/momo427 LinkedIn
-      linkedin.com/in/tyra-ferguson-0b1929114
+      <a href="https://github.com/momo427 ">Github</a> 
+      <br></br>
+      <a href=" linkedin.com/in/tyra-ferguson-0b1929114">LinkedIn</a>
     </>
   );
 }
