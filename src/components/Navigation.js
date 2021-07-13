@@ -43,8 +43,8 @@ function Navigation ({ currentPage, handlePageChange }) {
       </NavDropdown>
     </Nav>
     <Nav>
-      <Nav.Link href="https://twitter.com/intent/tweet?text=Tweet:@mo_winkle">Twitter</Nav.Link>
-      <Nav.Link eventKey={2} href="https://twitter.com/intent/tweet?text=Tweet:@mo_winkle">
+      <Nav.Link href="https://twitter.com/intent/tweet?text=@mo_winkle">Twitter</Nav.Link>
+      <Nav.Link eventKey={2} href="https://twitter.com/intent/tweet?text=@mo_winkle">
         
       </Nav.Link>
     </Nav>

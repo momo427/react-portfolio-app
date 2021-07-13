@@ -2,22 +2,8 @@
   margin: 0;
   padding: 0;
 }
-#root{
-display: flexbox;
-justify-content: center;
-margin-left: 150px;
-
-}
 
 body{
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
- font-size: 30px;
- font-weight: 500;
-  width: 100vh;
-  height: 1192px;
-  
   background: #343E3D;
   }
   
