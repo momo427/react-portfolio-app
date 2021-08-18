@@ -1,50 +1,58 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 
 body{
   background: #343E3D;
   }
-  
-  h1{
-  width: 1110px;
-  height: 294px;
-  top: 525px;
+  .projects {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 
+   }
+   #resumeimg{
+     padding: 2rem 2rem;
+     margin-left: 8rem;
+   }
+   .pimg {
+    padding: 10rem, 3rem, 3rem, 3rem;
+    display: flex;
+    width: 25rem;
+    height: 15rem;
+    margin: 10rem, 10rem;
   
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 90000;
-  font-size: 84px;
-  line-height: 98px;
-  text-align: center;
-  
-  color: #AEDCC0;
+   }
+   .intro{
+  padding-top: 10rem;
+   }
+  h1{
+    position: absolute;
+    align-content: center;
+    margin-left: 6rem;
+    margin-bottom: 10rem;
+    width: 1110px;    
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 94px;
+    line-height: 98px;
+    text-align: center;
+    color: #AEDCC0;
   }
   
-  button{
-  position: absolute;
-  width: 263px;
-  height: 100px;
-  left: 599px;
-  top: 930px;
-  background: #607466 !important;
-  align-content: center;
-  }
-  
-  p .skills{
-  position: absolute;
-  width: 100vh;
-  height: 52px;
-  left: 581px;
-  top: 424px;
-  
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 44px;
-  line-height: 52px;
-  
-  color: #AEDCC0;
+  #aboutme {
+    position: absolute;
+    align-content: center;
+    margin-left: 6rem;
+    padding-top: 10rem;
+    width: 1110px;
+ 
+    
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 94px;
+    line-height: 98px;
+    text-align: center;
+    color: #AEDCC0;
 }

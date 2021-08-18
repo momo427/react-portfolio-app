@@ -4,8 +4,7 @@ import PortfolioContainer from "./PortfolioContainer";
 import './App.css';
 
 function App() {
-  return (
-    
+  return (   
 <PortfolioContainer/>
   );
 }

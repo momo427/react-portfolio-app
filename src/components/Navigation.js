@@ -38,7 +38,7 @@ function Navigation ({ currentPage, handlePageChange }) {
       <NavDropdown title="Contact Me" id="collasible-nav-dropdown">
         <NavDropdown.Item href = "mailto: tydevspot@gmail.com">Email</NavDropdown.Item>
         <NavDropdown.Item href="https://www.linkedin.com/in/tyra-ferguson-0b1929114">LinkedIn</NavDropdown.Item>
-        <NavDropdown.Item href="https://docs.google.com/document/d/1JzMfEHJ8_SqhnDhZviNASSQtMs7dQLdCpOVayf0XG_4/edit?usp=sharing">Download Resume</NavDropdown.Item>
+        <NavDropdown.Item href="https://drive.google.com/file/d/1R3bUibay5m4ErC2U2W5C4aVRZqnlBuXz/view?usp=sharing">Download Resume</NavDropdown.Item>
         <NavDropdown.Divider />
       </NavDropdown>
     </Nav>
