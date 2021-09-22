@@ -15,12 +15,12 @@ body {
 .listItem{
   background-color: #343e3d;
   border: none;
-  margin-left: 2.37rem;
+  margin-left: 2rem;
 }
 
 .bg-dark {
 
-  width: 38rem;
+  width: 34rem;
   color: black;
   font-size: 1.4rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -34,7 +34,7 @@ body {
 }
 .pimg {
   opacity: 0.4;
-  width: 38rem;
+  width: 34rem;
   height: 23rem;
 }
 
