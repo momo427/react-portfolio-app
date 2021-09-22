@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio-app/static/css/main.49ce29b7.chunk.css",
-    "main.js": "/react-portfolio-app/static/js/main.a38caa0c.chunk.js",
-    "main.js.map": "/react-portfolio-app/static/js/main.a38caa0c.chunk.js.map",
+    "main.css": "/react-portfolio-app/static/css/main.f52c7506.chunk.css",
+    "main.js": "/react-portfolio-app/static/js/main.6ce27358.chunk.js",
+    "main.js.map": "/react-portfolio-app/static/js/main.6ce27358.chunk.js.map",
     "runtime-main.js": "/react-portfolio-app/static/js/runtime-main.edb1b1bc.js",
     "runtime-main.js.map": "/react-portfolio-app/static/js/runtime-main.edb1b1bc.js.map",
-    "static/css/2.4be38407.chunk.css": "/react-portfolio-app/static/css/2.4be38407.chunk.css",
-    "static/js/2.ed0ba687.chunk.js": "/react-portfolio-app/static/js/2.ed0ba687.chunk.js",
-    "static/js/2.ed0ba687.chunk.js.map": "/react-portfolio-app/static/js/2.ed0ba687.chunk.js.map",
+    "static/css/2.9082872e.chunk.css": "/react-portfolio-app/static/css/2.9082872e.chunk.css",
+    "static/js/2.ee37f466.chunk.js": "/react-portfolio-app/static/js/2.ee37f466.chunk.js",
+    "static/js/2.ee37f466.chunk.js.map": "/react-portfolio-app/static/js/2.ee37f466.chunk.js.map",
     "index.html": "/react-portfolio-app/index.html",
-    "static/css/2.4be38407.chunk.css.map": "/react-portfolio-app/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.49ce29b7.chunk.css.map": "/react-portfolio-app/static/css/main.49ce29b7.chunk.css.map",
-    "static/js/2.ed0ba687.chunk.js.LICENSE.txt": "/react-portfolio-app/static/js/2.ed0ba687.chunk.js.LICENSE.txt",
+    "static/css/2.9082872e.chunk.css.map": "/react-portfolio-app/static/css/2.9082872e.chunk.css.map",
+    "static/css/main.f52c7506.chunk.css.map": "/react-portfolio-app/static/css/main.f52c7506.chunk.css.map",
+    "static/js/2.ee37f466.chunk.js.LICENSE.txt": "/react-portfolio-app/static/js/2.ee37f466.chunk.js.LICENSE.txt",
     "static/media/Resume.f2415254.png": "/react-portfolio-app/static/media/Resume.f2415254.png",
     "static/media/codeQuiz.369d5e7c.png": "/react-portfolio-app/static/media/codeQuiz.369d5e7c.png",
     "static/media/passwordGenerator.c719d2c8.png": "/react-portfolio-app/static/media/passwordGenerator.c719d2c8.png",
@@ -19,9 +19,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.edb1b1bc.js",
-    "static/css/2.4be38407.chunk.css",
-    "static/js/2.ed0ba687.chunk.js",
-    "static/css/main.49ce29b7.chunk.css",
-    "static/js/main.a38caa0c.chunk.js"
+    "static/css/2.9082872e.chunk.css",
+    "static/js/2.ee37f466.chunk.js",
+    "static/css/main.f52c7506.chunk.css",
+    "static/js/main.6ce27358.chunk.js"
   ]
 }
