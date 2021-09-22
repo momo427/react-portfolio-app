@@ -4,108 +4,63 @@ import Redirect from '@material-ui/core/Link';
 import weatherapp from '../images/weatherapp.png'
 import passwordGen from '../images/passwordGenerator.png'
 import codeQuiz from '../images/codeQuiz.png'
-import './Project.css'
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
+import ListGroup from 'react-bootstrap/ListGroup'
+import { Card } from "react-bootstrap";
 
 
-const useStyles = makeStyles({
-  root: {
-    maxWidth: 449,
-   
-  },
-  cards: {
-    height: 489,
-    display:'flex',
-    alignContent:'center',
-    margin:100,
-    padding:20,
-  },
-});
+
+;
 function Project() {
-  const classes = useStyles();
+
   return (
-    <Container className={classes.cards}>
-    <Card >
-      <CardActionArea>
+    <Container className='cards' >
+<ListGroup horizontal className='proList'>
+<ListGroup.Item className='listItem'>
+  <Redirect className='box' href='https://momo427.github.io/weather/'>
+<Card className="bg-dark text-white ">
+<Card.Img  src={weatherapp} className='pimg' alt='weatherapp' />
+  <Card.ImgOverlay>
+    <Card.Title>Weather App</Card.Title>
+    <Card.Text>
+    This weather app allows the user to check the current weather, five day forecast, wind speed, UV index, and humidity of any city. 
+    </Card.Text>
+  
+  </Card.ImgOverlay>
+</Card>
+</Redirect>
+</ ListGroup.Item>
 
-  <Redirect href='https://momo427.github.io/weather/'><img className='pimg' src={weatherapp} alt='weatherapp'></img>
-  </Redirect>
 
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Lizard
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
-      </CardActions>
-    </Card>
-      <Card className={classes.root}>
-      <CardActionArea>
+<ListGroup.Item className='listItem'>
+<Redirect className='box' href='https://momo427.github.io/weather/'>
+<Card className="bg-dark text-white ">
+<Card.Img  src={codeQuiz} className='pimg' alt='code quiz' />
+  <Card.ImgOverlay>
+    <Card.Title>Code Quiz</Card.Title>
+    <Card.Text>
+    This application uses JavaScript to build a quiz that can be used by developers to study JavaScript.
+    </Card.Text>
+   
+  </Card.ImgOverlay>
+</Card>
+</Redirect>
+</ListGroup.Item>
 
-      <Redirect href='https://momo427.github.io/codequiztake_3/'><img className='pimg'src={codeQuiz} alt='weatherapp'></img>
-  </Redirect>
-
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Lizard
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
-      </CardActions>
-    </Card>
-      <Card className={classes.root}>
-      <CardActionArea>
-
-      <Redirect href='https://momo427.github.io/password_generate/'><img className='pimg'src={passwordGen} alt='passwordGenerator'></img>
-  </Redirect> 
-
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Lizard
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
-      </CardActions>
-    </Card>
+<ListGroup.Item className='listItem'>
+<Redirect className='box' href='https://momo427.github.io/weather/'>
+<Card className="bg-dark text-white ">
+<Card.Img  src={passwordGen} className='pimg' alt='passwordGenerator' />
+  <Card.ImgOverlay>
+    <Card.Title>Password Generator</Card.Title>
+    <Card.Text>
+    Generate your next password with just a few clicks. 
+    </Card.Text>
+  
+  </Card.ImgOverlay>
+</Card>
+</Redirect>
+</ListGroup.Item>
+</ListGroup>
     </Container>
   );
 }

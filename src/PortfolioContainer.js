@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Resume from "./components/Resume";
+import Contact from "./components/Contact"
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -18,6 +19,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'Resume') {
       return <><Resume/><Footer/></>;
+    }
+    if (currentPage === 'Contact') {
+      return <><Contact/><Footer/></>;
     }
   };
 

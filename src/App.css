@@ -1,58 +1,116 @@
+body {
+  display: flex;
+  background: #343e3d;
+}
+.box {
+  margin-left: 4rem;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
 
-body{
-  background: #343E3D;
-  }
-  .projects {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+.proList{
+  margin-top: 9rem;
 
-   }
-   #resumeimg{
-     padding: 2rem 2rem;
-     margin-left: 8rem;
-   }
-   .pimg {
-    padding: 10rem, 3rem, 3rem, 3rem;
-    display: flex;
-    width: 25rem;
-    height: 15rem;
-    margin: 10rem, 10rem;
-  
-   }
-   .intro{
+}
+.listItem{
+  background-color: #343e3d;
+  border: none;
+  margin-left: 2.37rem;
+}
+
+.bg-dark {
+
+  width: 38rem;
+  color: black;
+  font-size: 1.4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: space-around;
+}
+
+#resumimg {
+  padding: 2rem 2rem;
+  margin-left: 22rem;
+  opacity: 0.7;
+}
+.pimg {
+  opacity: 0.4;
+  width: 38rem;
+  height: 23rem;
+}
+
+.intro {
   padding-top: 10rem;
-   }
-  h1{
-    position: absolute;
-    align-content: center;
-    margin-left: 6rem;
-    margin-bottom: 10rem;
-    width: 1110px;    
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 94px;
-    line-height: 98px;
-    text-align: center;
-    color: #AEDCC0;
-  }
-  
-  #aboutme {
-    position: absolute;
-    align-content: center;
-    margin-left: 6rem;
-    padding-top: 10rem;
-    width: 1110px;
- 
-    
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 94px;
-    line-height: 98px;
-    text-align: center;
-    color: #AEDCC0;
+}
+
+h1 {
+  position: absolute;
+  align-content: center;
+  margin-left: 31rem;
+  margin-bottom: 10rem;
+  width: 1110px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 94px;
+  line-height: 98px;
+  text-align: center;
+  color: #aedcc0;
+}
+
+#aboutme {
+  position: absolute;
+  align-content: center;
+  margin-left: 31rem;
+  padding-top: 10rem;
+  width: 1110px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 94px;
+  line-height: 98px;
+  text-align: center;
+  color: #aedcc0;
+}
+.nav-link {
+  text-align: center;
+  color: #aedcc0;
+  font-weight: bolder;
+  font-family: Roboto;
+  font-size: 24px;
+}
+
+.navi {
+  margin-top: 1.2rem;
+  margin-left: 5rem;
+}
+
+.callme {
+  display: flex;
+  margin-left: 22.7rem;
+ flex-wrap: wrap;
+ justify-content: center;
+
+}
+.cons{
+  justify-content: space-around;
+  padding: 7.5rem;
+  color: #aedcc0;
+}
+
+.getintouch{
+  align-content: center;
+  margin-left: 29rem;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  width: 1110px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 90px;
+  line-height: 98px;
+  text-align: center;
+  color: #aedcc0;
 }
